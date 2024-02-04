@@ -1,0 +1,141 @@
+/* Utilities */
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    overflow: auto;  /*to fix the margin issue of h1 h2 tag*/
+    padding: 0 40px;
+}
+
+
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 10px;
+    color: #333;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-outline{
+    background-color: transparent;
+    border: 1px #fff solid;
+}
+
+.btn:hover{
+    transform: scale(0.98);
+}
+
+/* BackGrounds */
+
+.btn-primary, 
+.bg-primary{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn-secondary, 
+.bg-secondary{
+    background-color: var(--secondary-color);
+}
+
+.btn-dark, 
+.bg-dark{
+    background-color: var(--dark-color);
+    color: #fff;
+}
+
+.btn-light, 
+.bg-light{
+    background-color: var(--light-color);
+    color: #333;
+}
+
+.bg-dark a{
+    background-color: var(--dark-color);
+    color: #fff;
+}
+
+
+/* Text Sizes */
+
+.lead{
+    font-size: 20px;
+}
+
+.sm{
+    font-size: 1rem;
+}
+
+.md{
+    font-size: 2rem;
+}
+
+.lg{
+    font-size: 3rem;
+}
+
+.xl{
+    font-size: 4rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert span{
+    margin-left: 10px;
+}
+
+.alert-success {
+    background-color: var(--success-color);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.f-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid-3{
+    grid-template-columns: repeat(3,1fr);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-3{
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+
+
+
+
